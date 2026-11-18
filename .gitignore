@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+.chroma/
+dados/encaminhamentos.jsonl
+prints/
+.streamlit/secrets.toml
+requirements-cheio.txt
+.env.txt
+.env.*
+.idea/
+teste_chave.py

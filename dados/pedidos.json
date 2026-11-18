@@ -1,0 +1,103 @@
+{
+  "pedidos": [
+    {
+      "codigo": "LM1001",
+      "cliente": "Ana Lima",
+      "status": "entregue",
+      "atualizado_em": "2026-11-16T19:10:00",
+      "itens": [
+        {"nome": "Hambúrguer Lume", "preco_reais": 34.90, "obs": "sem cebola"},
+        {"nome": "Batata Frita", "preco_reais": 14.90, "obs": ""}
+      ],
+      "taxa_entrega_reais": 6.90,
+      "total_reais": 56.70
+    },
+    {
+      "codigo": "LM1002",
+      "cliente": "Bruno Costa",
+      "status": "saiu_para_entrega",
+      "atualizado_em": "2026-11-16T20:05:00",
+      "itens": [
+        {"nome": "Frango Crocante", "preco_reais": 31.90, "obs": ""},
+        {"nome": "Refrigerante Lata", "preco_reais": 7.90, "obs": "cola"}
+      ],
+      "taxa_entrega_reais": 6.90,
+      "total_reais": 46.70
+    },
+    {
+      "codigo": "LM1003",
+      "cliente": "Carla Dias",
+      "status": "em_preparo",
+      "atualizado_em": "2026-11-16T20:22:00",
+      "itens": [
+        {"nome": "Bowl da Horta", "preco_reais": 33.90, "obs": "alergia a glúten"},
+        {"nome": "Suco de Laranja", "preco_reais": 12.90, "obs": ""}
+      ],
+      "taxa_entrega_reais": 0.00,
+      "total_reais": 46.80,
+      "nota": "retirada no balcão"
+    },
+    {
+      "codigo": "LM1004",
+      "cliente": "Diego Alves",
+      "status": "aguardando_confirmacao",
+      "atualizado_em": "2026-11-16T20:40:00",
+      "itens": [
+        {"nome": "Hambúrguer Duplo", "preco_reais": 42.90, "obs": ""},
+        {"nome": "Anéis de Cebola", "preco_reais": 16.90, "obs": ""}
+      ],
+      "taxa_entrega_reais": 6.90,
+      "total_reais": 66.70
+    },
+    {
+      "codigo": "LM1005",
+      "cliente": "Elena Prado",
+      "status": "cancelado",
+      "atualizado_em": "2026-11-16T18:15:00",
+      "itens": [
+        {"nome": "Macarrão à Bolonhesa", "preco_reais": 36.90, "obs": ""}
+      ],
+      "taxa_entrega_reais": 0.00,
+      "total_reais": 36.90,
+      "nota": "cancelado antes de sair para entrega, sem custo"
+    },
+    {
+      "codigo": "LM1006",
+      "cliente": "Felipe Nunes",
+      "status": "saiu_para_entrega",
+      "atualizado_em": "2026-11-16T19:50:00",
+      "itens": [
+        {"nome": "Risoto de Cogumelo", "preco_reais": 38.90, "obs": "sem queijo extra"},
+        {"nome": "Água", "preco_reais": 5.00, "obs": ""}
+      ],
+      "taxa_entrega_reais": 6.90,
+      "total_reais": 50.80
+    },
+    {
+      "codigo": "LM1007",
+      "cliente": "Gabi Rocha",
+      "status": "problema_reportado",
+      "atualizado_em": "2026-11-16T20:12:00",
+      "itens": [
+        {"nome": "Brownie", "preco_reais": 15.90, "obs": ""},
+        {"nome": "Pudim", "preco_reais": 13.90, "obs": ""}
+      ],
+      "taxa_entrega_reais": 6.90,
+      "total_reais": 36.70,
+      "nota": "cliente informou item faltante; encaminhado para análise humana; reembolso não aprovado"
+    },
+    {
+      "codigo": "LM1008",
+      "cliente": "Heitor Paz",
+      "status": "entregue",
+      "atualizado_em": "2026-11-16T13:05:00",
+      "itens": [
+        {"nome": "Salada Lume", "preco_reais": 24.90, "obs": "com frango"},
+        {"nome": "Suco de Laranja", "preco_reais": 12.90, "obs": ""}
+      ],
+      "taxa_entrega_reais": 6.90,
+      "total_reais": 52.70,
+      "nota": "frango adicional de 8,00 já somado na salada"
+    }
+  ]
+}
